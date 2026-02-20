@@ -8,7 +8,7 @@ from openai import OpenAI
 # TOKENS & KEYS
 # ============================================================
 
-TELEGRAM_BOT_TOKEN = "8342079117:AAEm6pYd5FMnNqFkGIlCrHh3epfkU8bOJ1s"
+TELEGRAM_BOT_TOKEN = "8543883834:AAGPsm9lIAJOPzoiyxSRlpVw_cjUGNAkKWA"
 
 client = OpenAI(
     api_key="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",
