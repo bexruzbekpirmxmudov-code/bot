@@ -25,10 +25,10 @@ dp = Dispatcher()
 # Doimiy rangli o'yin tugmalari (asl koddan o'zgarishsiz)
 GAMES_KB = {
     "keyboard": [
-        [{"text": "🎯 Dart"}, {"text": "🎳 Bowling"}],
-        [{"text": "⚽ Football"}, {"text": "🏀 Basketball"}],
-        [{"text": "🎲 Dice"}, {"text": "🎰 Casino"}],
-        [{"text": "🔙 Orqaga"}],
+        [{"text": "🎯 Dart", "style": "danger"}, {"text": "🎳 Bowling", "style": "danger"}],
+        [{"text": "⚽ Football", "style": "success"}, {"text": "🏀 Basketball", "style": "success"}],
+        [{"text": "🎲 Dice","style": "primary"}, {"text": "🎰 Casino","style": "primary"}],
+        [{"text": "🔙 Orqaga","style": "primary"}],
     ],
     "resize_keyboard": True,
     "is_persistent": True,
@@ -38,7 +38,7 @@ GAMES_KB = {
 # Asosiy menyu
 MAIN_KB = {
     "keyboard": [
-        [{"text": "🎮 O'yinlar"}, {"text": "🌐 Til o'zgartirish"}],
+        [{"text": "🎮 O'yinlar","style": "primary"}, {"text": "🌐 Til o'zgartirish"}],
     ],
     "resize_keyboard": True,
     "is_persistent": True,
